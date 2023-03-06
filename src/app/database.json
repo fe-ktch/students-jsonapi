@@ -1,0 +1,21 @@
+{
+    "students": [
+        { "id": 1, "name": "Derűs Béla", "gender": "férfi", "group": "15b" },
+        { "id": 2, "name": "Csendes Károly", "gender": "férfi", "group2": "15b" },
+        { "id": 3, "name": "Csege Ágnes", "gender": "nő", "group": "16a" },
+        { "id": 4, "name": "Derűs Béla", "gender": "férfi", "group": "16a" },
+        { "id": 5, "name": "Arany Lajos", "gender": "férfi", "group": "15b" },
+        { "id": 6, "name": "Per Mária", "gender": "nő", "group": "15a" },
+        { "id": 7, "name": "Csévés Katalin", "gender": "nő", "group": "15a" }
+    ],
+    "scores": [
+        { "id": 1, "score": 80, "studentId": 1 },
+        { "id": 2, "score": 80, "studentId": 2 },
+        { "id": 3, "score": 80, "studentId": 3 },
+        { "id": 4, "score": 80, "studentId": 4 },
+        { "id": 5, "score": 80, "studentId": 5 },
+        { "id": 6, "score": 80, "studentId": 6 },
+        { "id": 7, "score": 80, "studentId": 7 }
+    ]
+    
+}
