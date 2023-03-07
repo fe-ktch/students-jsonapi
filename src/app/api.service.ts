@@ -19,5 +19,4 @@ export class ApiService {
   getScores() {
     return this.http.get<Scores[]>(`${this.url}/scores`);
   }
-
 }
