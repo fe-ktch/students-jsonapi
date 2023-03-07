@@ -1,3 +1,13 @@
+/*
+* File: api.service.ts
+* Author: Sangare F. Felisha
+* Copyright: 2023, Sangare F. Felisha
+* Group: Szoft II N
+* Date: 2023-03-07
+* Github: https://github.com/fe-ktch/
+* Licenc: GNU GPL
+*/
+
 import { Injectable } from '@angular/core';
 import {HttpClient } from '@angular/common/http';
 import { Students } from './Students';
