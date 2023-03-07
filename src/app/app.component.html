@@ -4,10 +4,27 @@
     <th *ngFor="let col of columns">
       {{col}}
     </th>
+    <th>Scores</th>
+  </tr>
+  <tr *ngFor="let student of students">
+    <td *ngFor="let col of index">
+      {{student[col]}}
+    </td>
+    <td>{{student.score}}</td>
+  </tr>
+</table>
+
+
+<!--<h1>Table for Students</h1>
+<table id="students">
+  <tr>
+    <th *ngFor="let col of columns">
+      {{col}}
+    </th>
   </tr>
   <tr *ngFor="let student of students">
     <td *ngFor="let col of index">
       {{student[col]}}
     </td>
   </tr>
-</table> 
+</table>-->
