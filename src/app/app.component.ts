@@ -14,7 +14,7 @@ export class AppComponent implements OnInit {
 
   constructor(private api : ApiService){}
 
-  columns = ["Student ID", "Name", "Gender", "Group", "Score"];
+  columns = ["Student ID", "Name", "Gender", "Group", "Scores"];
 
   index = ["id", "name", "gender", "group", "score"] as const;
 
@@ -46,19 +46,4 @@ export class AppComponent implements OnInit {
       }
     );
   }
-  
-
-  /*ngOnInit(): void {
-    this.api.getStudents().subscribe
-    (
-      (response)=>
-      {
-        this.students = response;
-      },
-      (error)=>
-      {
-        console.log("Error Occured : "+error);
-      }
-    )
-  }*/
 }
